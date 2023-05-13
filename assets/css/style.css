@@ -308,6 +308,17 @@ img {
   font-size: 1rem;
 }
 
+@media screen and (min-width: 992px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .menu {
+    flex-direction: row;
+  }
+}
+
 /*=============== SCROLL BAR ===============*/
 ::-webkit-scrollbar {
   width: 0.5rem;
