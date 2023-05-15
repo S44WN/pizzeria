@@ -57,6 +57,14 @@
   }
 }
 
+@font-face {
+  font-family: "roundregular";
+  src: url("../fonts/rounded/rounded-webfont.woff2") format("woff2"),
+    url("../fonts/rounded/rounded-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /*=============== BASE ===============*/
 * {
   box-sizing: border-box;
@@ -169,7 +177,7 @@ img {
 }
 
 .header__tagline {
-  font-size: var(--smaller-font-size);
+  font-family: "roundregular";
   color: var(--brown-cont);
   font-weight: 600;
   margin-bottom: 1rem;
@@ -529,6 +537,7 @@ img {
   align-items: center;
   gap: 1rem;
   margin-bottom: 7rem;
+  font-family: "poppins", sans-serif;
 }
 
 .footer__logo {
